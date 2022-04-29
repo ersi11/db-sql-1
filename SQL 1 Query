@@ -21,3 +21,9 @@ SELECT * FROM courses
 WHERE year <= 1
 AND period <= 'I semestre';
 --------------------------------------------
+SELECT * FROM courses
+WHERE website IS NULL;
+--------------------------------------------
+SELECT * FROM teachers
+WHERE phone IS NOT NULL;
+-----------------------------------------------
