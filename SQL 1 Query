@@ -1,1 +1,15 @@
 SELECT * FROM teachers;
+-----------------------
+SELECT head_of_department FROM departments;
+-----------------------------
+SELECT * 
+FROM degrees
+WHERE level = 'magistrale';
+---------------------------------
+SELECT *
+FROM students
+WHERE name = 'Marco';
+---------------------------
+SELECT * FROM courses
+WHERE cfu >= 12;
+-----------------------------
